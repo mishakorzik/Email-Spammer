@@ -15,27 +15,16 @@ class bcolors:
 def bomb():
 	os.system('clear')
 	print bcolors.OKGREEN + '''                            																											
-[>] Preparing and attacking. 
-[>] Pending...... 
-[>] Finding window. 
-[>] please wait.....
- ---------------------------------------------''' + bcolors.ENDC
+[>] Preparing and attacking ...
+[>] Pending ...
 
 
-os.system('clear')
-try:
-	file1 = open('Banner.txt', 'r')
-	print(' ')
-	print bcolors.OKGREEN + file1.read() + bcolors.ENDC
-	file1.close()
-except IOError:
-	print('Banner File not found')
 
 #Input
 print(bcolors.WARNING + '''												       
 \033[95mChoose a Mail Service:													
-1) Gmail  => Google									
-2) Yahoo  => Microsoft								
+01] Gmail - Google									
+02] Yahoo - Microsoft								
 ''' + bcolors.ENDC + '--------------------------------------------------------------')
 try:
 	server = raw_input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
@@ -103,5 +92,6 @@ elif server == '2' or server == 'Yahoo' or server == 'yahoo':
 		except:
 			print "Failed to Send"
 	server.close()
-	
-#
+else:
+	print 'Works only with Gmail, Yahoo, Outlook and Hotmail.'
+	sys.exit()
