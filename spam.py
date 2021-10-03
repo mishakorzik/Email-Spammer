@@ -12,13 +12,29 @@ class bcolors:
 	ENDC = '\033[0m'
 	LITBU = '\033[94m'
 	
+class FG:
+    	black = "\033[30m"
+    	red = "\033[31m"
+    	green = "\033[32m"
+    	orange = "\033[33m"
+    	blue = "\033[34m"
+    	purple = "\033[35m"
+    	cyan = "\033[36m"
+    	lightgrey = "\033[37m"
+    	darkgrey = "\033[90m"
+    	lightred = "\033[91m"
+    	lightgreen = "\033[92m"
+    	yellow = "\033[93m"
+    	lightblue = "\033[94m"
+    	pink = "\033[95m"
+    	lightcyan = "\033[96m"
 
-
-def bomb():
+def start_bomb():
 	os.system('clear')
 	print(bcolors.OKGREEN + '''                            																											
 [>] Preparing and attacking ...''')
 
+os.system('clear')
 print(bcolors.OKGREEN + '''
 
 ▓█████  ███▄ ▄███▓ ▄▄▄       ██▓  ██▓      ██████  ██▓███   ▄▄▄       ███▄ ▄███▓
@@ -55,10 +71,9 @@ except KeyboardInterrupt:
 	print(bcolors.FAIL + '\nCanceled' + bcolors.ENDC)
 	sys.exit()
 
-#Gmail
-
+#Gmail powered google
 if server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
-	bomb()
+	start_bomb()
 	server = smtplib.SMTP("smtp.gmail.com", 587)
 	server.ehlo()
 	server.starttls()
@@ -78,10 +93,10 @@ if server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
 			print("Messange failed to Send! ")
 	server.close()
 	
-#Yahoo
+#Yahoo powered microsoft
 elif server == '2' or server == '02' or server == 'Yahoo' or server == 'yahoo':
 	server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
-	bomb()
+	start_bomb()
 	server.starttls()
 	try:
 		server.login(user, pwd)
@@ -100,6 +115,6 @@ elif server == '2' or server == '02' or server == 'Yahoo' or server == 'yahoo':
 	server.close()
 	
 else:
-	print('Works only with Gmail, Yahoo ...')
+	print(bcolors.FAIL + 'Error code: 404 Works only with Gmail, Yahoo ...')
 	sys.exit()
 
