@@ -35,9 +35,6 @@
 * `pkg install python`
 * `git clone https://github.com/mishakorzik/Email-Spamer`
 
-#### Everything is ready! Now we are waiting for everything to download!
-**succes**
-
 ## Start Program
 #### Enter a command to start Email-Spamer.
 
