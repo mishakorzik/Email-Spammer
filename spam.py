@@ -21,13 +21,13 @@ def bomb():
 
 print(bcolors.WARNING + '''												       
 \033[95mChoose a Mail Service:													
-1) Gmail  => Google									
-2) Yahoo  => Microsoft
+[1] Gmail									
+[2] Yahoo 
 '''
 try:
 	server = raw_input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
 	user = "smtp0python@gmail.com"
-	pwd = getpass.getpass(bcolors.FAIL + 'Password: ' + bcolors.ENDC)
+	pwd = "smtp0python18gmail"
 	to = raw_input(bcolors.OKGREEN + 'To: ' + bcolors.ENDC)
 	subject = raw_input(bcolors.LITBU + 'Subject (Optional): ' + bcolors.ENDC)
 	body = raw_input(bcolors.OKGREEN + 'Message: ' + bcolors.ENDC)
