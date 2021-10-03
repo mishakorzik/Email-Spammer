@@ -14,16 +14,16 @@ class bcolors:
 
 def bomb():
 	os.system('clear')
-	print bcolors.OKGREEN + '''                            																											
+	print(bcolors.OKGREEN + '''                            																											
 [>] Preparing and attacking ...
-[>] Pending ...'''
+[>] Pending ...''')
 
 
 print(bcolors.WARNING + '''												       
 \033[95mChoose a Mail Service:													
 [1] Gmail									
 [2] Yahoo 
-'''
+''')
 try:
 	server = raw_input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
 	user = "smtp0python@gmail.com"
