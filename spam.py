@@ -11,6 +11,7 @@ class bcolors:
 	FAIL = '\033[91m'
 	ENDC = '\033[0m'
 	LITBU = '\033[94m'
+	
 
 
 def bomb():
@@ -18,10 +19,24 @@ def bomb():
 	print(bcolors.OKGREEN + '''                            																											
 [>] Preparing and attacking ...''')
 
+print(bcolors.OKGREEN + '''
+
+▓█████  ███▄ ▄███▓ ▄▄▄       ██▓  ██▓      ██████  ██▓███   ▄▄▄       ███▄ ▄███▓
+▓█   ▀ ▓██▒▀█▀ ██▒▒████▄    ▓██▒ ▓██▒    ▒██    ▒ ▓██░  ██▒▒████▄    ▓██▒▀█▀ ██▒
+▒███   ▓██    ▓██░▒██  ▀█▄  ▒██▒ ▒██░    ░ ▓██▄   ▓██░ ██▓▒▒██  ▀█▄  ▓██    ▓██░
+▒▓█  ▄ ▒██    ▒██ ░██▄▄▄▄██ ░██░ ▒██░      ▒   ██▒▒██▄█▓▒ ▒░██▄▄▄▄██ ▒██    ▒██
+░▒████▒▒██▒   ░██▒ ▓█   ▓██▒░██░ ░██████▒▒██████▒▒▒██▒ ░  ░ ▓█   ▓██▒▒██▒   ░██▒
+░░ ▒░ ░░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░  ▒░▓  ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░ ▒▒   ▓▒█░░ ▒░   ░  ░
+ ░ ░  ░░  ░      ░  ▒   ▒▒ ░ ▒ ░░  ░ ▒  ░░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
+   ░   ░      ░     ░   ▒    ▒ ░  ░  ░   ░  ░  ░  ░░         ░   ▒   ░      ░
+   ░  ░       ░         ░  ░ ░       ░  ░      ░                 ░  ░       ░
+
+''')
+
 print(bcolors.WARNING + '''												       
-\033[95mSelecta Mail Service:													
-[1] Gmail									
-[2] Yahoo 
+\033[95mSelect Mail Service:													
+[1] Gmail  -  powered google								
+[2] Yahoo  -  powered microsoft
 ''')
 try:
 	server = input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
