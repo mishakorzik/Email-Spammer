@@ -36,11 +36,12 @@
 * `git clone https://github.com/mishakorzik/Email-Spamer`
 
 #### Everything is ready! Now we are waiting for everything to download!
- * `succes`
+**succes**
 
 ## Start Program
 #### Enter a command to start Email-Spamer.
 
+* `cd Email-Spamer`
 * `python spam.py`
 
 #### If there are problems then look down there will be if failed to download.
