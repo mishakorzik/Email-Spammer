@@ -1,7 +1,7 @@
 <p align="center">
 <a href="https://github.com/mishakorzik/Email-Spamer"><img title="Version" src="https://img.shields.io/badge/Version-1.1.0-yellow?style=for-the-badge&logo="></a>
 <a href="https://github.com/mishakorzik/Email-Spamer/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightgreen?style=for-the-badge&logo=gnu"></a>
-<a href=""><img title="Python" src="https://img.shields.io/badge/Python-3.7-red?style=for-the-badge&logo=python"></a>
+<a href=""><img title="Python" src="https://img.shields.io/badge/Python-1.X-red?style=for-the-badge&logo=python"></a>
 <a href="https://github.com/mishakorzik"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-red?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/mishakorzik"><img title="Autor" src="https://img.shields.io/badge/Author-mishakorzik-blue?style=for-the-badge&logo=github"></a>
 
@@ -83,8 +83,8 @@ If the tool fails, follow these steps:
 #### here you can see a screenshot of AdminHack
 <br>
 <p align="center">
-<img width="53.0%" src=""/> 
-<img width="44.5%" src=""/>
+<img width="49.1%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spamer/main/IMG_20211003_224657.jpg"/> 
+<img width="49.1%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spamer/main/IMG_20211003_224837.jpg"/>
 </p>
 
 ## Find Me 
