@@ -6,6 +6,9 @@ import getpass
 import sys
 import base64
 
+GMAIL_PORT = "587"
+YAHOO_PORT = "25"
+
 class bcolors:
 	OKGREEN = '\033[92m'
 	WARNING = '\033[93m'
@@ -50,11 +53,10 @@ print(bcolors.OKGREEN + '''
 
 print(bcolors.WARNING + '''												       
 \033[95mSelect Mail Service:													
-[1] Gmail  -  powered google								
-[2] Yahoo  -  powered microsoft
+[1] Gmail  -  powered google		By mishakorzik						
+[2] Yahoo  -  powered microsoft          Version 1.1.0''')
 
->> By mishakorzik
->> version 1.1.0''')
+
 
 
 try:
