@@ -130,7 +130,6 @@ elif server == '3' or server == '03' or server == 'outlook' or server == 'Outloo
 	try:
 		server.login(user, pwd)
 	except smtplib.SMTPAuthenticationError:
-		print bcolors.FAIL + 'Your Username or Password is incorrect, please try again using the correct credentials' + bcolors.ENDC
 		sys.exit()
 	while no != nomes:
 		try:
