@@ -124,7 +124,8 @@ elif server == '2' or server == '02' or server == 'Yahoo' or server == 'yahoo':
 # Outlook powered microsoft
 elif server == '3' or server == '03' or server == 'outlook' or server == 'Outlook' or server == 'Hotmail' or server == 'hotmail':
 	server = smtplib.SMTP("smtp-mail.outlook.com", OUTLOOK_PORT)
-	bomb()
+
+        start_bomb()
 	server.ehlo()
 	server.starttls()
 	try:
