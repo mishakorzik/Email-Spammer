@@ -76,12 +76,11 @@ except KeyboardInterrupt:
 	sys.exit()
 
 
-
 	
 #Gmail powered google
 if server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
 	start_bomb()
-	server = smtplib.SMTP("smtp.gmail.com", 587)
+	server = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
 	server.ehlo()
 	server.starttls()
 	try:
@@ -102,7 +101,7 @@ if server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
 	
 #Yahoo powered microsoft
 elif server == '2' or server == '02' or server == 'Yahoo' or server == 'yahoo':
-	server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
+	server = smtplib.SMTP("smtp.mail.yahoo.com", YAHOO_PORT)
 	start_bomb()
 	server.starttls()
 	try:
