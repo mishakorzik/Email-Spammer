@@ -140,7 +140,7 @@ elif server == '3' or server == '03' or server == 'outlook' or server == 'Outloo
 			print(bcolors.FAIL + '\nTerminaling...' + bcolors.ENDC)
 			sys.exit()
 		except smtplib.SMTPAuthenticationError:
-			print '\nThe username or password you entered is incorrect.'
+			print('\nThe username or password you entered is incorrect.')
 			sys.exit()
 		except:
 			print("Messange failed to Send!")
