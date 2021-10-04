@@ -55,8 +55,8 @@ print(bcolors.OKGREEN + '''
 print(bcolors.WARNING + '''												       
 \033[95mSelect Mail Service:													
 [1] Gmail  -  powered google		By mishakorzik						
-[2] Yahoo  -  powered microsoft          Version 1.1.0''')
-
+[2] Yahoo   -  powered microsoft         Version 1.1.0
+[3] Outlook  -  powered microsoft         Copyring 2021''')
 
 try:
 	server = input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
