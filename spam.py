@@ -7,7 +7,8 @@ import sys
 import base64
 
 GMAIL_PORT = "587"
-YAHOO_PORT = "25"
+YAHOO_PORT = "587"
+OUTLOOK_PORT = "25"
 
 class bcolors:
 	OKGREEN = '\033[92m'
@@ -93,7 +94,7 @@ if server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
 			print(bcolors.WARNING + 'Successfully messenge sent! ' + str(no+1) + ' emails' + bcolors.ENDC)
 			no += 1
 		except KeyboardInterrupt:
-			print(bcolors.FAIL + '\nCanceled' + bcolors.ENDC)
+			print(bcolors.FAIL + '\nTerminaling...' + bcolors.ENDC)
 			sys.exit()
 		except:
 			print("Messange failed to Send! ")
@@ -114,12 +115,39 @@ elif server == '2' or server == '02' or server == 'Yahoo' or server == 'yahoo':
 			print(bcolors.WARNING + 'Successfully messenge sent! ' + str(no + 1) + ' emails' + bcolors.ENDC)
 			no += 1
 		except KeyboardInterrupt:
-			print(bcolors.FAIL + '\nCanceled' + bcolors.ENDC)
+			print(bcolors.FAIL + '\nTerminaling...' + bcolors.ENDC)
 			sys.exit()
 		except:
-			print("Messange failed to Send! ")
+			print("Messange failed to Send!")
+	server.close()
+	
+# Outlook powered microsoft
+elif server == '3' or server == '03' or server == 'outlook' or server == 'Outlook' or server == 'Hotmail' or server == 'hotmail':
+	server = smtplib.SMTP("smtp-mail.outlook.com", OUTLOOK_PORT)
+	bomb()
+	server.ehlo()
+	server.starttls()
+	try:
+		server.login(user, pwd)
+	except smtplib.SMTPAuthenticationError:
+		print bcolors.FAIL + 'Your Username or Password is incorrect, please try again using the correct credentials' + bcolors.ENDC
+		sys.exit()
+	while no != nomes:
+		try:
+			server.sendmail(user, to, message)
+			print(bcolors.WARNING + 'Successfully messenge sent! ' + str(no + 1) + ' emails' + bcolors.ENDC)
+			no += 1
+		except KeyboardInterrupt:
+			print(bcolors.FAIL + '\nTerminaling...' + bcolors.ENDC)
+			sys.exit()
+		except smtplib.SMTPAuthenticationError:
+			print '\nThe username or password you entered is incorrect.'
+			sys.exit()
+		except:
+			print("Messange failed to Send!")
 	server.close()
 	
 else:
-	print(bcolors.FAIL + 'Error code: 404 Works only with Gmail, Yahoo ...')
+	print 'Works only with Gmail, Yahoo, Outlook and Hotmail.'
 	sys.exit()
+
