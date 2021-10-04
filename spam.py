@@ -72,7 +72,10 @@ except KeyboardInterrupt:
 	print(bcolors.FAIL + '\nCanceled' + bcolors.ENDC)
 	sys.exit()
 
-
+if server == '1' or server == '01'  or server == 'about' or server == 'About':
+      print('Developer: mishakorzik')
+      print('Copyrig  : 2021')
+      print('Version  : 1.1.0')
 	
 #Gmail powered google
 elif server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
