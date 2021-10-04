@@ -77,7 +77,7 @@ except KeyboardInterrupt:
 
 	
 #Gmail powered google
-elif server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
+if server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
 	start_bomb()
 	server = smtplib.SMTP("smtp.gmail.com", 587)
 	server.ehlo()
