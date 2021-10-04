@@ -43,15 +43,17 @@ print(bcolors.OKGREEN + '''
 ▒▓█  ▄ ▒██    ▒██ ░██▄▄▄▄██ ░██░ ▒██░      ▒   ██▒▒██▄█▓▒ ▒░██▄▄▄▄██ ▒██    ▒██
 ░▒████▒▒██▒   ░██▒ ▓█   ▓██▒░██░ ░██████▒▒██████▒▒▒██▒ ░  ░ ▓█   ▓██▒▒██▒   ░██▒
 ░░ ▒░ ░░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░  ▒░▓  ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░ ▒▒   ▓▒█░░ ▒░   ░  ░
- ░ ░  ░By mishakorzik▒   ▒▒ ░ ▒ ░░  ░ ▒  ░░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
+ ░ ░  ░░  ░      ░  ▒   ▒▒ ░ ▒ ░░  ░ ▒  ░░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
    ░   ░      ░     ░   ▒    ▒ ░  ░  ░   ░  ░  ░  ░░         ░   ▒   ░      ░
    ░  ░       ░         ░  ░ ░       ░  ░      ░                 ░  ░       ░''')
 
-By mishakorzik
 print(bcolors.WARNING + '''												       
 \033[95mSelect Mail Service:													
 [1] Gmail  -  powered google								
 [2] Yahoo  -  powered microsoft
+[3] About  -  mishakorzik
+
+By mishakorzik
 ''')
 try:
 	server = input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
@@ -70,8 +72,13 @@ except KeyboardInterrupt:
 	print(bcolors.FAIL + '\nCanceled' + bcolors.ENDC)
 	sys.exit()
 
+if server == '1' or server == '01'  or server == 'about' or server == 'About':
+
+	
+	
+	
 #Gmail powered google
-if server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
+elif server == '1' or server == '01'  or server == 'gmail' or server == 'Gmail':
 	start_bomb()
 	server = smtplib.SMTP("smtp.gmail.com", 587)
 	server.ehlo()
