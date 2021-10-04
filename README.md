@@ -33,12 +33,12 @@
 * `pkg update`
 * `pkg install git`
 * `pkg install python`
-* `git clone https://github.com/mishakorzik/Email-Spamer`
+* `git clone https://github.com/mishakorzik/Email-Spammer`
 
 ## Start Program
 #### Enter a command to start Email-Spamer.
 
-* `cd Email-Spamer`
+* `cd Email-Spammer`
 * `python spam.py`
 
 #### If there are problems then look down there will be if failed to download.
