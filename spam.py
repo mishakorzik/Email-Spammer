@@ -6,9 +6,15 @@ import getpass
 import sys
 import base64
 
+# gmail   : port = 587 , smtp_server = smtp.gmail.com
+# outlook : port = 587 , smtp_server = smtp-mail.outlook.com
+# yahoo   : port = 465 , smtp_server = smpt.mail.yahoo.com
+# hotmail : port = 587 , smtp_server = smtp-mail.outlook.com
+
+
 GMAIL_PORT = "587"
-YAHOO_PORT = "587"
-OUTLOOK_PORT = "25"
+YAHOO_PORT = "465"
+OUTLOOK_PORT = "587"
 
 class bcolors:
 	OKGREEN = '\033[92m'
