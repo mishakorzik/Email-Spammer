@@ -11,7 +11,6 @@ import base64
 # yahoo   : port = 465 , smtp_server = smpt.mail.yahoo.com
 # hotmail : port = 587 , smtp_server = smtp-mail.outlook.com
 
-
 GMAIL_PORT = "587"
 YAHOO_PORT = "465"
 OUTLOOK_PORT = "587"
