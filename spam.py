@@ -57,7 +57,6 @@ print(bcolors.WARNING + '''
 [2] Yahoo  -  powered microsoft          Version 1.1.0''')
 
 
-
 try:
 	server = input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
 	user_list = ['smtp0python@gmail.com', 'smtp1python@gmail.com']
