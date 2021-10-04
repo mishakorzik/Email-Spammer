@@ -43,11 +43,11 @@ print(bcolors.OKGREEN + '''
 ▒▓█  ▄ ▒██    ▒██ ░██▄▄▄▄██ ░██░ ▒██░      ▒   ██▒▒██▄█▓▒ ▒░██▄▄▄▄██ ▒██    ▒██
 ░▒████▒▒██▒   ░██▒ ▓█   ▓██▒░██░ ░██████▒▒██████▒▒▒██▒ ░  ░ ▓█   ▓██▒▒██▒   ░██▒
 ░░ ▒░ ░░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░  ▒░▓  ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░ ▒▒   ▓▒█░░ ▒░   ░  ░
- ░ ░  ░░  ░      ░  ▒   ▒▒ ░ ▒ ░░  ░ ▒  ░░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
+ ░ ░  ░By mishakorzik▒   ▒▒ ░ ▒ ░░  ░ ▒  ░░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
    ░   ░      ░     ░   ▒    ▒ ░  ░  ░   ░  ░  ░  ░░         ░   ▒   ░      ░
    ░  ░       ░         ░  ░ ░       ░  ░      ░                 ░  ░       ░''')
 
-
+By mishakorzik
 print(bcolors.WARNING + '''												       
 \033[95mSelect Mail Service:													
 [1] Gmail  -  powered google								
@@ -61,9 +61,9 @@ try:
 	message_bytes = base64.b64decode(base64_bytes)
 	pwd = message_bytes.decode('ascii')
 	to = input(bcolors.OKGREEN + 'Send To: ' + bcolors.ENDC)
-	subject = input(bcolors.LITBU + 'Subject (Optional): ' + bcolors.ENDC)
+	subject = input(bcolors.LITBU + 'Subject: ' + bcolors.ENDC)
 	body = input(bcolors.OKGREEN + 'Message: ' + bcolors.ENDC)
-	nomes = input(bcolors.OKGREEN + 'Number of Emails to send (1-5000): ' + bcolors.ENDC)
+	nomes = input(bcolors.OKGREEN + 'Number of Emails to send (1-6999): ' + bcolors.ENDC)
 	no = 0
 	message = 'From: ' + user + '\nSubject: ' + subject + '\n' + body
 except KeyboardInterrupt:
