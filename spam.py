@@ -147,6 +147,6 @@ elif server == '3' or server == '03' or server == 'outlook' or server == 'Outloo
 	server.close()
 	
 else:
-	print 'Works only with Gmail, Yahoo, Outlook and Hotmail.'
+	print('Works only with Gmail, Yahoo, Outlook and Hotmail.')
 	sys.exit()
 
