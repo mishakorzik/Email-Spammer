@@ -15,6 +15,10 @@ GMAIL_PORT = "587"
 YAHOO_PORT = "465"
 OUTLOOK_PORT = "587"
 
+Subject = ""
+body = "This is spam!"
+server = "gmail"
+
 class bcolors:
 	OKGREEN = '\033[92m'
 	WARNING = '\033[93m'
@@ -65,7 +69,7 @@ print(bcolors.WARNING + '''
 
 try:
 	server = input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
-	user_list = ['smtp0python@gmail.com', 'smtp1python@gmail.com']
+	user_list = ['smtp0python@gmail.com', 'smtp1python@gmail.com', 'smtp2python@gmail.com']
 	user = random.choice(user_list)
 	base64_message = 'c210cDBweXRob24xOGdtYWls'
 	base64_bytes = base64_message.encode('ascii')
