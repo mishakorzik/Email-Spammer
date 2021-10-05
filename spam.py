@@ -15,7 +15,7 @@ GMAIL_PORT = "587"
 YAHOO_PORT = "465"
 OUTLOOK_PORT = "587"
 
-Subject = ""
+subject = ""
 body = "This is spam!"
 server = "gmail"
 
