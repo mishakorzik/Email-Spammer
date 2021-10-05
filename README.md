@@ -113,5 +113,5 @@ If the tool fails, follow these steps:
 <img src="https://github-readme-stats.vercel.app/api?username=mishakorzik&show_icons=true&theme=default&line_height=25&layout=compact" /></p>
 
 ## Supporters
-[![Stargazers repo roster for @mishakorzik/Email-Spamer](https://reporoster.com/stars/mishakorzik/Email-Spamer)](https://github.com/mishakorzik/Email-Spamer/stargazers)
-[![Forkers repo roster for @mishakorzik/Email-Spamer](https://reporoster.com/forks/mishakorzik/Email-Spamer)](https://github.com/mishakorzik/Email-Spamer/members)
+[![Stargazers repo roster for @mishakorzik/Email-Spammer](https://reporoster.com/stars/mishakorzik/Email-Spammer)](https://github.com/mishakorzik/Email-Spammer/stargazers)
+[![Forkers repo roster for @mishakorzik/Email-Spammer](https://reporoster.com/forks/mishakorzik/Email-Spammer)](https://github.com/mishakorzik/Email-Spammer/members)
