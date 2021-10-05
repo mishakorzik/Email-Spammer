@@ -1,3 +1,4 @@
+import src.spammer
 import random
 import smtplib
 import time
