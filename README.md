@@ -1,3 +1,5 @@
+<img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spammer/main/IMG-87d8985eff113166042d3845c8bdc621-V.jpg"/>
+
 <p align="center">
 <a href="https://github.com/mishakorzik/Email-Spamer"><img title="Version" src="https://img.shields.io/badge/Version-1.1.0-yellow?style=for-the-badge&logo="></a>
 <a href="https://github.com/mishakorzik/Email-Spamer/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightgreen?style=for-the-badge&logo=gnu"></a>
