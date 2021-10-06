@@ -115,8 +115,9 @@ if server == '1' or server == '01' or server == '2' or server == '02' or server 
 		except:
 			print(bcolors.FAIL + "Messange failed to Send! ")
 	server.close()
+        print(bcolors.FAIL + 'Proccess Terminated! Please restart ...')
 else:
-        print('Works only with Gmail, MailRU, Yahoo, Outlook and Hotmail.')
+        print(bcolors.FAIL + 'Works only with Gmail, MailRU, Rambler, Aol, Yahoo, Outlook and Hotmail.')
         sys.exit()
 
 
