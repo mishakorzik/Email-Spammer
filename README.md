@@ -27,6 +27,7 @@
 - [x] Supported on python3
 - [x] Supported other systems
 - [x] Quickly and clearly
+- [x] More supported services
 
 ----
 ## Install
@@ -37,6 +38,14 @@
 * `pkg install python`
 * `git clone https://github.com/mishakorzik/Email-Spammer`
 
+-----
+* `pip3 install requests`
+
+**The second way to install the requests library**
+
+* `python3 -m install requests`
+
+------
 ## Start Program
 #### Enter a command to start Email-Spamer.
 
