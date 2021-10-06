@@ -37,15 +37,21 @@
 * `pkg install git`
 * `pkg install python`
 * `git clone https://github.com/mishakorzik/Email-Spammer`
-
------
 * `pip3 install requests`
 
-**The second way to install the requests library**
+<details id="missing-code-coverage">
+  <summary>Need help with installation</summary>
 
-* `python3 -m install requests`
+**1. If you have problems installing the requests library: python3 -m pip install requests**
 
-------
+**2. If modules cannot be downloaded: replace pkg with apt**
+
+**3. If you do not know how to delete the repository: rm -rf Email-Spammer**
+
+</details>
+
+-----
+
 ## Start Program
 #### Enter a command to start Email-Spamer.
 
