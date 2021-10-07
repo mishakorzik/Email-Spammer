@@ -130,6 +130,11 @@ try:
 	print('7. smtp6python@gmail.com')
 	print('8. smtp7python@gmail.com')
 	print('9. smtp8python@gmail.com')
+	print('')
+	print('Other: Not recommend!')
+	print('9. address1@domain.com')
+	print('8. address2@domain.com')
+	print('9. address3@domain.com')
 	print(bcolors.WARNING + 'example: smtp0python@gmail.com' + bcolors.ENDC)
 	user = input(bcolors.WARNING + 'Select email: ' + bcolors.ENDC)
 
@@ -137,9 +142,11 @@ try:
 		base64_message = 'c210cDAwMHB5dGhvbjFnbWFpbA=='
 	else:
 		base64_message = 'c210cDBweXRob24xOGdtYWls'
-	base64_bytes = base64_message.encode('ascii')
-	message_bytes = base64.b64decode(base64_bytes)
-	pwd = message_bytes.decode('ascii')
+
+	elif user == 'address1@domain.com':
+		pwd = 'password123'
+	else:
+		pwd = 'password456'
 
 	to = input(bcolors.LITBU + 'Send To: ' + bcolors.ENDC)
 	subject = input(bcolors.LITBU + 'Subject: ' + bcolors.ENDC)
