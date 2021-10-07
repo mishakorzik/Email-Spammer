@@ -129,6 +129,7 @@ try:
 	print('6. smtp5python@gmail.com')
 	print('7. smtp6python@gmail.com')
 	print('8. smtp7python@gmail.com')
+	print('9. smtp8python@gmail.com')
 	print(bcolors.WARNING + 'example: smtp0python@gmail.com' + bcolors.ENDC)
 	user = input(bcolors.WARNING + 'Select email: ' + bcolors.ENDC)
 
