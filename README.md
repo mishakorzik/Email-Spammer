@@ -56,7 +56,13 @@
 #### Enter a command to start Email-Spamer.
 
 * `cd Email-Spammer`
-* `python spam.py`
+* `python random_spam.py`
+
+**random_spam.py: it will select a random email address for spam**
+
+**custom_spam.py: there you will need to select an email address for spam**
+
+------
 
 #### If there are problems then look down there will be if failed to download.
 
@@ -89,7 +95,8 @@ If the tool fails, follow these steps:
 
 </details>
 
----
+-------
+
 ## Donate
 
 **If you want to donate, click on the button**
