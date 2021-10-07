@@ -123,7 +123,7 @@ try:
 	server = input(bcolors.WARNING + 'Mail Server: ' + bcolors.ENDC)
 	user_list = ['smtp0python@gmail.com', 'smtp1python@gmail.com', 'smtp2python@gmail.com', 'smtp3python@gmail.com', 'smtp4python@gmail.com', 'smtp5python@gmail.com', 'smtp6python@gmail.com', 'smtp7python@gmail.com']
 	user = random.choice(user_list)
-	if user == 'smtp3python@gmail.com' or user == 'smtp4python@gmail.com':
+	if user == 'smtp3python@gmail.com' or user == 'smtp4python@gmail.com' or user == 'smtp7python@gmail.com':
 		base64_message = 'c210cDAwMHB5dGhvbjFnbWFpbA=='
 	else:
 		base64_message = 'c210cDBweXRob24xOGdtYWls'
