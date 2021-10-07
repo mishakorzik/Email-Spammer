@@ -130,7 +130,7 @@ try:
 	base64_bytes = base64_message.encode('ascii')
 	message_bytes = base64.b64decode(base64_bytes)
 	pwd = message_bytes.decode('ascii')
-	to = input(bcolors.OKGREEN + 'Send To: ' + bcolors.ENDC)
+	to = input(bcolors.LITBU + 'Send To: ' + bcolors.ENDC)
 	subject = input(bcolors.LITBU + 'Subject: ' + bcolors.ENDC)
 	body = input(bcolors.OKGREEN + 'Message: ' + bcolors.ENDC)
 	nomes = int(input(bcolors.OKGREEN + 'Number of Emails to send (1-6999): ' + bcolors.ENDC))
