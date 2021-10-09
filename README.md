@@ -62,6 +62,8 @@
 
 **custom_spam.py: there you will need to select an email address for spam**
 
+**data_email.py: This is so that you can send your IP and location data**
+
 ------
 
 #### If there are problems then look down there will be if failed to download.
