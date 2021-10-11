@@ -1,7 +1,6 @@
 import os
 import sys
 
-os.system("python2 src/logo.py")
 print("1. python1  -  .cpython-39.opt-2.pyc")
 print("2. python3  -  .cpython-310.opt-2.pyc")
 diya = input("Options: ")
