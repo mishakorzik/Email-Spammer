@@ -1,4 +1,4 @@
-<img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spammer/main/IMG-87d8985eff113166042d3845c8bdc621-V.jpg"/>
+<img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spammer/main/src/IMG-87d8985eff113166042d3845c8bdc621-V.jpg"/>
 
 <p align="center">
 <a href="https://github.com/mishakorzik/Email-Spamer"><img title="Version" src="https://img.shields.io/badge/Version-1.1.0-darkblue?style=for-the-badge&logo="></a>
@@ -109,8 +109,8 @@ If the tool fails, follow these steps:
 #### here you can see a screenshot of AdminHack
 <br>
 <p align="center">
-<img width="49.1%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spamer/main/IMG_20211003_224657.jpg"/> 
-<img width="49.1%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spamer/main/IMG_20211003_224837.jpg"/>
+<img width="49.1%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spammer/main/src/IMG_20211003_224657.jpg"/> 
+<img width="49.1%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spammer/main/src/IMG_20211003_224837.jpg"/>
 </p>
 
 ## Find Me 
