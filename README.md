@@ -59,6 +59,9 @@
 * `cd Email-Spammer`
 * `python random_spam.py`
 
+* `cd Email-Spammer`
+* `python custom_spam.py`
+
 **random_spam.py: it will select a random email address for spam**
 
 **custom_spam.py: there you will need to select an email address for spam**
