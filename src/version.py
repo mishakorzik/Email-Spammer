@@ -35,10 +35,10 @@ def sys_check():
 			github_sys = github_sys.strip()
 
 			if systemR == github_sys:
-				print(C + '[' + G + ' Up-To-Date ' + C +']' + '\n')
+				print(C + '[' + G + ' Up-To-Date ' + C +']')
 				print(R + '[-] ' + C + 'successfully checked, no updates')
 			else:
-				print(C + '[' + R + ' Available : {} '.format(github_sys) + C + ']' + '\n')
+				print(C + '[' + R + ' Available : {} '.format(github_sys) + C + ']')
 				print(R + '[-] ' + C + 'Please update the system! reinstall repository...')
 		else:
 			print(C + '[' + R + ' Status : {} '.format(sys_sc) + C + ']' + '\n')
@@ -47,3 +47,4 @@ def sys_check():
 	except Exception as e:
 		print('\n' + R + '[-]' + C + ' Critical Error code: 105 Maybe you dont have internet - Exception : ' + W + str(e))
 
+sys_check()
