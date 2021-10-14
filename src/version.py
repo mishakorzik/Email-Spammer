@@ -39,8 +39,7 @@ def sys_check():
 				print(R + '[-] ' + C + 'successfully checked, no updates')
 			else:
 				print(C + '[' + R + ' Available : {} '.format(github_sys) + C + ']' + '\n')
-							print(R + '[-] ' + C + 'Please update the system! reinstall repository...')
-				sys.exit()
+				print(R + '[-] ' + C + 'Please update the system! reinstall repository...')
 		else:
 			print(C + '[' + R + ' Status : {} '.format(sys_sc) + C + ']' + '\n')
 			print(R + '[-] ' + C + 'The system failed to start!')
