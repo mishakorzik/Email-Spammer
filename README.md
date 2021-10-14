@@ -57,10 +57,10 @@
 #### Enter a command to start Email-Spamer.
 
 * `cd Email-Spammer`
-* `python random_spam.py`
+* `python custom_spam.py`
 
 * `cd Email-Spammer`
-* `python custom_spam.py`
+* `python random_spam.py`
 
 **random_spam.py: it will select a random email address for spam**
 
