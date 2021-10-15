@@ -43,11 +43,9 @@
 <details id="missing-code-coverage">
   <summary>Need help with installation</summary>
 
-**1. If you have problems installing the requests library: python3 -m pip install requests**
-
-**2. If modules cannot be downloaded: replace pkg with apt**
-
-**3. If you do not know how to delete the repository: rm -rf Email-Spammer**
+**1. If you have problems installing the requests library: python3 -m pip install requests <br>**
+**2. If modules cannot be downloaded: replace pkg with apt <br>**
+**3. If you do not know how to delete the repository: rm -rf Email-Spammer <br>**
 
 </details>
 
@@ -62,11 +60,9 @@
 * `cd Email-Spammer`
 * `python random_spam.py`
 
-**random_spam.py: it will select a random email address for spam**
-
-**custom_spam.py: there you will need to select an email address for spam**
-
-**data_email.py: This is so that you can send your IP and location data**
+**random_spam.py: it will select a random email address for spam <br>**
+**custom_spam.py: there you will need to select an email address for spam <br>**
+**data_email.py: This is so that you can send your IP and location data <br>**
 
 ------
 
