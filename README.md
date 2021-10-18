@@ -54,10 +54,13 @@
 ## Start Program
 #### Enter a command to start Email-Spamer.
 
+**Custom Email (custom_spam.py): <br>**
+
 * `cd Email-Spammer`
 * `python custom_spam.py`
-<br>
-<br>
+
+**Data Email (data_email.py): <br>**
+
 * `cd Email-Spammer`
 * `python data_email.py`
 
