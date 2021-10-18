@@ -108,7 +108,7 @@ If the tool fails, follow these steps:
 
 ## Screenshot
 
-#### here you can see a screenshot of AdminHack
+#### here you can see a screenshot of Email-Spammer
 <br>
 <p align="center">
 <img width="49.1%" src="https://raw.githubusercontent.com/mishakorzik/Email-Spammer/main/src/IMG_20211018_221028.jpg"/> 
