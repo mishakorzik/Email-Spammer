@@ -22,7 +22,7 @@ import base64
 row = []
 info = ''
 result = ''
-systemR = '1.3.21'
+systemR = '1.4.22'
 
 def sys_check():
 	print(G + '[>]' + C + ' Checking for system configurations....', end='')
