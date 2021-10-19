@@ -40,6 +40,7 @@ def sys_check():
 			else:
 				print(C + '[' + R + ' Available : {} '.format(github_sys) + C + ']')
 				print(R + '[-] ' + C + 'Please update the system! reinstall repository...')
+				print(R + '[-] ' + C + 'Command to update:  python src/update.py')
 		else:
 			print(C + '[' + R + ' Status : {} '.format(sys_sc) + C + ']' + '\n')
 			print(R + '[-] ' + C + 'The system failed to start!')
