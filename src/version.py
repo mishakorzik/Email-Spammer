@@ -5,7 +5,7 @@ W = '\033[0m'
 
 import time
 import os
-import csv
+
 import random
 import sys
 import json
@@ -15,14 +15,14 @@ import subprocess as subp
 import smtplib
 import time
 import os
-import getpass
+
 import sys
 import base64
 
 row = []
 info = ''
 result = ''
-systemR = '1.4.2'
+systemR = '1.4.7'
 
 def sys_check():
 	print(G + '[>]' + C + ' Checking for system configurations....', end='')
