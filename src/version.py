@@ -36,7 +36,7 @@ def sys_check():
 
 			if systemR == github_sys:
 				print(C + '[' + G + ' Up-To-Date ' + C +']')
-				print(R + '[-] ' + C + 'successfully checked, no updates')
+				print(G + '[+] ' + C + 'Successfully checked, no updates!')
 			else:
 				print(C + '[' + R + ' Available : {} '.format(github_sys) + C + ']')
 				print(R + '[-] ' + C + 'Please update the system! reinstall repository...')
