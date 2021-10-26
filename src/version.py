@@ -12,12 +12,9 @@ import json
 import argparse
 import requests
 import subprocess as subp
-import smtplib
+
 import time
 import os
-
-import sys
-import base64
 
 row = []
 info = ''
