@@ -39,11 +39,12 @@
 * `pkg install python`
 * `git clone https://github.com/mishakorzik/Email-Spammer`
 * `pip3 install requests`
+* `pip3 install smtp`
 
 <details id="missing-code-coverage">
   <summary>Need help with installation</summary>
 
-**1. If you have problems installing the requests library: python3 -m pip install requests <br>**
+**1. If you have problems installing the requests library: python3 -m pip install requests, smtp<br>**
 **2. If modules cannot be downloaded: replace pkg with apt <br>**
 **3. If you do not know how to delete the repository: rm -rf Email-Spammer <br>**
 
