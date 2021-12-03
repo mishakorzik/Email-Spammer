@@ -76,12 +76,12 @@
 <details id="missing-code-coverage">
   <summary>Need Help</summary>
 
-#### Do you need help? Write me on: miguardzecurity@gmail.com
+#### Do you need help? Write me on: developer.mishakorzhik@gmail.com
 #### And I will consider your letter and problem!
 
 ```bash
 Emails:
- miguardzecurity@gmail.com
+ developer.mishakorzhik@gmail.com
 
 Developers:
  mishakorzhik
@@ -94,7 +94,7 @@ If the tool fails, follow these steps:
    in detail
 
 2. Contact me through the following 
-   email: miguardzecurity@gmail.com 
+   email: developer.mishakorzhik@gmail.com
 
 3. Submit the screenshot and explain 
    your problem with that error
