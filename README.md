@@ -33,8 +33,8 @@
 ----
 ## Install
 
-* `pkg upgrade`
-* `pkg update`
+* `apt updade`
+* `apt upgrate`
 * `pkg install git`
 * `pkg install python`
 * `git clone https://github.com/mishakorzik/Email-Spammer`
