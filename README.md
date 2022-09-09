@@ -92,6 +92,11 @@ b'200'
 * `cd Email-Spammer`
 * `python data_email.py`
 
+**Alternative Email-Spammer <br>**
+
+* `cd Email-Spammer`
+* `python server_spam.py`
+
 **custom_spam.py: there you will need to select an email address for spam <br>**
 
 **data_email.py: This is so that you can send your IP and location data <br>**
