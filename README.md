@@ -47,6 +47,31 @@
 **1. If you have problems installing the requests library: python3 -m pip install requests, smtp<br>**
 **2. If modules cannot be downloaded: replace pkg with apt <br>**
 **3. If you do not know how to delete the repository: rm -rf Email-Spammer <br>**
+**4. if nothing helped you, then you can use the alternative below**
+
+## Install with pypi
+
+* `pip install sendtomail`
+
+```python
+## Usage
+from sendtomail import *
+for i in range(10):
+    server.send(email, text)
+
+## Example
+>>> from sendtomail import *
+>>> server.send("he1zen@null.net", "hello, its a test message!")
+b'200'
+>>>
+
+## Status codes
+200 - Succesfully send
+400 - bad options
+429 - Too Many emails sended
+500 - Internal Server Error
+503 - Service Unavailable
+```
 
 </details>
 
