@@ -54,6 +54,8 @@ print(bcolors.RAND + '''
  ░ ░  ░░  ░      ░  ▒   ▒▒ ░ ▒ ░░  ░ ▒  ░░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
    ░   ░      ░     ░   ▒    ▒ ░  ░  ░   ░  ░  ░  ░░         ░   ▒   ░      ░
    ░  ░       ░         ░  ░ ░       ░  ░      ░                 ░  ░       ░''')
+print(" ")
+print(bcolors.WARNING + 'Using Alternative email spammer ' + bcolors.ENDC)
 
 email = input(bcolors.WARNING + 'Sent To (жертва): ' + bcolors.ENDC)
 text = input(bcolors.WARNING + 'Message (сообщение): ' + bcolors.ENDC)
