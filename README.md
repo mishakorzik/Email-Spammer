@@ -64,7 +64,9 @@ for i in range(10):
 >>> server.send("he1zen@null.net", "hello, its a test message!")
 b'200'
 >>>
+```
 
+```
 ## Status codes
 200 - Succesfully send
 400 - bad options
