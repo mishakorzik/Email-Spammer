@@ -1,5 +1,5 @@
 from sendtomail import *
-import time
+import time, random, os, sys
 
 def cls():
         if sys.platform == 'win32':
@@ -65,4 +65,5 @@ if en0 <= nomes:
     cls()
 
 for i in range(nomes):
-    server.send(email, text)
+    code = server.send(email, text)
+    print(code)
