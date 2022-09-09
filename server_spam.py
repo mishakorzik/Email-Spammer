@@ -1,5 +1,5 @@
 from sendtomail import *
-impirt time
+import time
 
 def cls():
         if sys.platform == 'win32':
