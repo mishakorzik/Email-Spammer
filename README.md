@@ -58,11 +58,11 @@
 from sendtomail import *
 for i in range(10):
     server.send(region, email, text)
-    # All Regions: de, uk, eu
+    # All Regions: de, uk, us, it, es, tw, cn, ar, au
 
 ## Example
 >>> from sendtomail import *
->>> server.send(uk"", "he1zen@null.net", "hello, its a test message!")
+>>> server.send("us", "he1zen@null.net", "hello, its a test message!")
 b'200'
 >>>
 ```
