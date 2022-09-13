@@ -67,5 +67,9 @@ if en0 <= nomes:
     cls()
 
 for i in range(nomes):
-    code = server.send("uk", email, text)
-    print(code)
+    try:
+        code = server.send("ru", email, text)
+        if code == '429':
+            code = server.send("tr", email, text)
+        print(code)
+    
