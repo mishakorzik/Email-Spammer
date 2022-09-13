@@ -68,8 +68,8 @@ if en0 <= nomes:
 
 for i in range(nomes):
     try:
-        code = server.send("ru", email, text)
+        code = server.send("tr", email, text)
         if code == '429':
-            code = server.send("tr", email, text)
+            code = server.send("us", email, text)
         print(code)
     
