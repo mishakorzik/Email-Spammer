@@ -9,4 +9,4 @@ try:
         time.sleep(1)
         os.system("python src/data_email.cpython-310.opt-2.pyc")
 except KeyboardInterrupt:
-        sys.exit(
+        sys.exit()
