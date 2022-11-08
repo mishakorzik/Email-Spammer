@@ -131,6 +131,8 @@ If the tool fails, follow these steps:
 
 -------
 
+**Repository Views** ![Views](https://profile-counter.glitch.me/EmailSpammer/count.svg)
+
 ## Donate
 
 **If you want to donate, click on the button**
