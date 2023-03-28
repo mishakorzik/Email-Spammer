@@ -39,7 +39,6 @@
 * `pkg install python`
 * `git clone https://github.com/mishakorzik/Email-Spammer`
 * `pip3 install requests`
-* `pip3 install smtp`
 
 <details id="missing-code-coverage">
   <summary>Need help with installation</summary>
