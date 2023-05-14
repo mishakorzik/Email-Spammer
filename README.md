@@ -48,33 +48,6 @@
 **3. If you do not know how to delete the repository: rm -rf Email-Spammer <br>**
 **4. if nothing helped you, then you can use the alternative below**
 
-## Install with pypi
-
-* `pip install sendtomail`
-
-```python
-## Usage
-from sendtomail import *
-for i in range(10):
-    server.send(region, email, text)
-    # All Regions: de, uk, us, it, es, tw, cn, ar, au
-
-## Example
->>> from sendtomail import *
->>> server.send("us", "he1zen@null.net", "hello, its a test message!")
-b'200'
->>>
-```
-
-```
-## Status codes
-200 - Succesfully send
-400 - bad options
-429 - Too Many emails sended
-500 - Internal Server Error
-503 - Service Unavailable
-```
-
 </details>
 
 -----
