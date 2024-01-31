@@ -35,8 +35,8 @@
 
 * `apt updade`
 * `apt upgrate`
-* `pkg install git`
-* `pkg install python`
+* `apt install git`
+* `apt install python3-pip`
 * `git clone https://github.com/mishakorzik/Email-Spammer`
 * `pip3 install requests`
 
