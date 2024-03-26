@@ -17,8 +17,8 @@
 
 </p>
 
-> This is not the full version of Email-Spammer, you can write to me on Telegram for the full version
-
+> This is not the full version of Email-Spammer, but you can write to me on Telegram and buy the full version.
+> 
 > Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/Email-Spamer/blob/main/LICENSE).
 
 ---
