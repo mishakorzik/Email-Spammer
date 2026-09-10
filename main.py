@@ -153,18 +153,8 @@ try:
                 logger.info('Target email: '+to)
                 logger.info('Email list to send: Its a anonymous message! nomes: 0')
                 delay_name = 'special'
-        elif server == '3' or server == '03' or server == 'buy' or server == 'Buy':
-                print("15$ (USD) - 50 emails per 12th. For 1 week")
-                print("30$ (USD) - 100 emails per 12th. For 1 week")
-                print("50$ (USD) - 200 emails per 12th. For 1 week")
-                print("85$ (USD) - 400 emails per 12th. For 1 week")
-                print("")
-                print("if you want to buy, write to Telegram: @ubp2q")
-                exit()
+
         no = 0
-        if to == 'misakorzik528@gmail.com' or to == 'miguardzecurity@gmail.com' or to == 'korzikmisha@gmail.com':
-                print(bcolors.FAIL + '\nWhat?  seems to have failed to process \nyour request, please try another email.' + bcolors.ENDC)
-                sys.exit(0)
         if delay == '1' or delay == '01':
                 SPEED = .1
                 delay_name = 'fast'
