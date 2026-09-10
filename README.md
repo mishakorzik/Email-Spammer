@@ -22,7 +22,11 @@
 > Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/Email-Spamer/blob/main/LICENSE).
 
 -------
-**This repository is closed and will no longer receive updates**
+> [!WARNING]
+> **This project is stopped**
+>
+> This project is no longer maintained. The source code is kept here for archival purposes.
+>
 -------
 
 #### Features
