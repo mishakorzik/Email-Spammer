@@ -186,6 +186,9 @@ if server == '1' or server == '01' or server == 'gmail' or server == 'Gmail':
             pwd = "dpusbvnihmvncaob"
         elif user == "auto.send583@gmail.com":
             pwd = "awlgkpsurszifppt"
+        else:
+            user = "auto.send583@gmail.com"
+            pwd = "awlgkpsurszifppt"
         start_bomb()
         print(bcolors.WARNING + 'Email: ' + user + '  Target: ' + to + '  Speed: ' + delay_name)
         print("")
@@ -229,6 +232,9 @@ if server == '1' or server == '01' or server == 'gmail' or server == 'Gmail':
 
 elif server == '2' or server == '02' or server == 'anon' or server == 'Anon':
         if user == "jiki.mioli08@gmail.com":
+            pwd = "gzwjsohldzxdpteh"
+        else:
+            user = "jiki.mioli08@gmail.com"
             pwd = "gzwjsohldzxdpteh"
         start_bomb()
         print(bcolors.WARNING + 'Email: ' + user + '  Send To: ' + to)
