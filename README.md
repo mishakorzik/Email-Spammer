@@ -17,9 +17,7 @@
 
 </p>
 
-> This is not the full version of Email-Spammer, but you can write to me on Telegram and buy the full version.
-> 
-> Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/mishakorzik/Email-Spamer/blob/main/LICENSE).
+> I am not responsible for your actions. By downloading software from this repository, you agree to the  [license](https://github.com/mishakorzik/Email-Spamer/blob/main/LICENSE).
 
 -------
 > [!WARNING]
